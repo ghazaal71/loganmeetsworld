@@ -1,0 +1,7 @@
+---
+layout: post
+title: "New Blog"
+date: 2017-05-02T08:48:37-04:00
+---
+
+# Hello new blog

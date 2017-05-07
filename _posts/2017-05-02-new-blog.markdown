@@ -6,4 +6,4 @@ date: 2017-05-02T08:48:37-04:00
 
 # Hello new blog
 
-I'm starting this new blog! 
+I'm starting this new blog! I hope to write about technical issues I face in my job.

@@ -2,6 +2,7 @@
 layout: post
 title: "Hello, Blog"
 date: 2017-10-12T08:48:37-04:00
+tags: learning blog
 ---
 
 ![Image of keyboard](https://images.pexels.com/photos/34153/pexels-photo.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb)

@@ -5,6 +5,10 @@ date: 2017-10-13T14:19:00-04:00
 tags: learning
 ---
 
+About a month ago a coworker of mine at Kickstarter started a new segment at our Engineering meeting -- a musical opener! Our first meeting we had an acoustic rendition of a Fall Out Boy song, which was _amazing_, but we struggled to find an appropriate act for our second meeting. Turns out, it's hard to wrangle people to perform music in front of all their colleagues. Last minute, I contacted the organizer of this segment and offered to do something a little different.
+
+Lately, I've been working on my memory. In order to improve my memory, I've been using a couple memorization tricks and practicing these on Shakespeare's sonnets. So I volunteered to read a sonnet at the meeting. I picked Sonnet 116 since I felt I knew it the best (it was the first I'd memorized) and read it out loud from memory at the top of the meeting. The sonnet:
+
 ```
 Let me not to the marriage of true minds 
 Admit impediments. Love is not love 

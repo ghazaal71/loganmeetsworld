@@ -1,6 +1,6 @@
 ---
 layout: page
-title: hi
+title: hello 👋
 permalink: /about/
 ---
 

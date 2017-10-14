@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hello, Blog. It's me, Logan."
+title: "Hello, Blog"
 date: 2017-05-02T08:48:37-04:00
 ---
 

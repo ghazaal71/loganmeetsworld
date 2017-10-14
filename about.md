@@ -11,3 +11,17 @@ I started my journey in software about three years ago when I started using R fo
 Currently, I am an operations/devops/site reliability/whatever title you want engineer at [Kickstarter](https://www.kickstarter.com). In my time at Kickstarter, I've concentrated on metrics & monitoring, site reliability, incident response, and some cool [serverless architecture](https://kickstarter.engineering/leveraging-functional-programming-aws-lambda-to-drive-chatops-4b269558d3fb).
 
 I'm using this blog to talk about the things I'm learning both at work and outside work. This blog is very simple. It's really just a place for me to keep some public thoughts, nothing more. Thanks for following along!
+
+### Links
+
+* [Github](https://github.com/loganmeetsworld)
+* [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
+* [Twitter](https://twitter.com/loganmeetsworld)
+* [Old blog](https://loganmcdonald.me)
+
+### Talks
+
+* A talk on [Node, AWS Lambda, and serverless functions I gave at NodeConf Barcelona](https://opbeat.com/community/posts/using-node-in-a-serverless-world-by-logan-mcdonald/)
+* [Lightning talk I gave about learning at Monitorama this year](https://vimeo.com/221064922) (start at 6m07s)
+* [Slides from a Security Talk I gave at Make a Diff last fall](https://gist.github.com/loganmeetsworld/b9e2931e6b2a9aabe5e85e9f6cdac882)
+* [Slides from an intro talk to "DevOps" I gave at *rb](https://gist.github.com/loganmeetsworld/941ea9c6f7a63646b3ccd91acaabe6e0)

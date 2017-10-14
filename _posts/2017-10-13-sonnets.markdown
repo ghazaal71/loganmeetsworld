@@ -26,4 +26,6 @@ If this be error and upon me prov'd,
 I never writ, nor no man ever lov'd.
 ```
 
-I got a great reception from my supportive coworkers. Reflecting back on it, I think it's pretty amazing that our engineering culture gives room for different types of creative learning. 
+I got a great reception from my supportive coworkers. Reflecting back on it, I think it's pretty amazing that our engineering culture gives room for different types of creative learning.
+
+Programming can be pretty mentally taxing and a way I've found that eases the tax is varying the types of learning and memorization.

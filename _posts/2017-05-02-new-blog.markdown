@@ -1,7 +1,16 @@
 ---
 layout: post
-title: "New Blog"
-date: 2017-05-02T08:48:37-04:00
+title: "Hello, Blog"
+date: 2017-09-15T08:48:37-04:00
+tags: learning blog
 ---
 
-# Hello new blog
+![Image of keyboard](https://images.pexels.com/photos/34153/pexels-photo.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb)
+
+I'm starting this new blog! I love writing. I love learning. Writing helps me learn, so I'm starting this blog. I've had blogs in [the](https://loganmeetsworld.tumblr.com) [past](https://loganmcdonald.me), but none that were specifically about technical learning. 
+
+I am particularly interested in writing about software engineering. I have been coding for about three years and a professional software engineer for one. I want a place where I can keep track of my progress growing my skills. Thus, why not blog about it? This blog will not strictly be about programming, but more geared towards _learning_. And because I tend to spend most of my time learning about software engineering, I'll spend most of my time writing about that. 
+
+I am an operations engineer at [Kickstarter](www.kickstarter.com) interested in systems engineering, monitoring, backend engineering, and site resilience. While I may write about some of the things I run into at my job, I also want to write about interests beyond my job.
+
+I'm going to start with a series of posts about learning. Thanks for following along!

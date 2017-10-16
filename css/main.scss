@@ -3,10 +3,12 @@
 ---
 @charset "utf-8";
 
-
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+$fira-sans: 'Fira Sans', sans-serif;
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: $fira-sans;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,9 +18,11 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #4746A9;
+$pretty-purple:    #601167;
+$pretty-purple-light: #77357D;
 
-$grey-color:       #828282;
+$grey-color:       #87115C;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 

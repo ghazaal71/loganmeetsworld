@@ -5,7 +5,7 @@ date: 2017-10-15T16:18:00-04:00
 tags: programming
 ---
 
-A cool thing I learned about a couple years ago in school is bitwise operators. I honestly mostly forgot about them until a coworker pointed out an implementation in our codebase the other day. I want to talk about a couple "practical" uses for them in that I've seen.
+An interesting thing I learned about a couple years ago in school is bitwise operators. I honestly mostly forgot about them until a coworker pointed out an implementation in our codebase the other day. I want to talk about a couple "practical" uses for them in that I've seen.
 
 Before we begin, let's do a quick math recap. An _operator_ is a tool that acts on the operands to produce another output. Famous operators are `+`, `-`, `*`, etc. It is both the element or tool that acts upon operands, and what we call the thing that denotes the action. An _operand_ is the object of the mathematical operation. So in `2 + 2`, the `2`s are operands, the plus sign is the operator.
 

@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "How to Take Notes"
+title: "Homographs, attack!"
 date: 2018-02-15T14:35:00-04:00
 tags: programming
 ---
-
-# Homographs, Attack!
 
 Homograph attacks have been a concept in security since the late 1990s so why do we find ourselves still talking about them today? In this post, I plan to explore the history of homograph attacks, and why, like many of the internet's path dependency problems, it seems like they just won't ever go away.
 

@@ -153,14 +153,14 @@ Thanks for reading! 🌍💖🎉🙌🌏
 
 * [Wikipedia on Homograph Attacks](https://en.wikipedia.org/wiki/IDN_homograph_attack)
 * [Wikipedia on IDNs](https://en.wikipedia.org/wiki/Internationalized_domain_name)
-* [Plagiarism Detection in Texts Obfuscated with Homoglyphs](http://eprints.whiterose.ac.uk/112665/1/paper_247v2.pdf)
+* [Plagiarism Detection in Texts Obfuscated with Homoglyphs](https://eprints.whiterose.ac.uk/112665/1/paper_247v2.pdf)
 * [A Collective Intelligence Approach to Detecting IDN Phishing by Shian-Shyong Tseng, Ai-Chin Lu, Ching-Heng Ku, and Guang-Gang Geng](https://kaigi.org/jsai/webprogram/2013/pdf/960.pdf)
 * [Exposing Homograph Obfuscation Intentions by Coloring Unicode Strings by Liu Wenyin, Anthony Y. Fu, and Xiaotie Deng](https://slides.tips/exposing-homograph-obfuscation-intentions-by-coloring-unicode-strings.html)
 * [Phishing with Unicode Domains by Xudong Zheng](https://www.xudongz.com/blog/2017/idn-phishing/)
-* [The Homograph Attack by Evgeniy Gabrilovich and Alex Gontmakher](http://evgeniy.gabrilovich.com/publications/papers/homograph_full.pdf) NOTE: The original paper!
-* [Cutting through the Confusion: A Measurement Study of Homograph Attacks by Tobias Holgers, David E. Watson, and Steven D. Gribble](http://static.usenix.org/events/usenix06/tech/full_papers/holgers/holgers_html/)
-* [Assessment of Internationalised Domain Name Homograph Attack Mitigation by Peter Hannay and Christopher Bolan](http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1010&context=ism)
-* [Multilingual web sites: Internationalized Domain Name homograph attacks by Johnny Al Helou and Scott Tilley](http://ieeexplore.ieee.org/abstract/document/5623562/?reload=true)
+* [The Homograph Attack by Evgeniy Gabrilovich and Alex Gontmakher](https://evgeniy.gabrilovich.com/publications/papers/homograph_full.pdf) NOTE: The original paper!
+* [Cutting through the Confusion: A Measurement Study of Homograph Attacks by Tobias Holgers, David E. Watson, and Steven D. Gribble](https://static.usenix.org/events/usenix06/tech/full_papers/holgers/holgers_html/)
+* [Assessment of Internationalised Domain Name Homograph Attack Mitigation by Peter Hannay and Christopher Bolan](https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1010&context=ism)
+* [Multilingual web sites: Internationalized Domain Name homograph attacks by Johnny Al Helou and Scott Tilley](https://ieeexplore.ieee.org/abstract/document/5623562/?reload=true)
 * [IDN Homograph Attack Potential Impact Analysis by @jsidrach](https://github.com/jsidrach/idn-homograph-attack)
 
 ### Browser policies
@@ -176,7 +176,7 @@ Thanks for reading! 🌍💖🎉🙌🌏
 * [Homograph Attack Generator for Mixed Scripts](https://github.com/UndeadSec/EvilURL) NOTE: It is no longer possible to register mixed script domain names.
 * [Homograph Attack Finder for Pure Cyrillic Scripts](https://github.com/frewsxcv/homograph-attack-finder/)
 * [Homograph Attack Finder + WHOIS lookup for Pure Cyrillic Scripts](https://github.com/loganmeetsworld/homographs-talk/tree/master/ha-finder)
-* [Homoglyph Dictionary](http://homoglyphs.net/)
+* [Homoglyph Dictionary](https://homoglyphs.net/)
 * [Puncode converter](https://www.punycoder.com)
 
 ### ICANN CFPs and Guidelines
@@ -202,7 +202,7 @@ Thanks for reading! 🌍💖🎉🙌🌏
 
 ### Homograph Major Site Copy-cat Examples
 
-* http://аоӏ.com/
+* https://аоӏ.com/
 * https://раураӏ.com/
 * https://аррӏе.com/
-* http://www.спп.com/
+* https://www.спп.com/

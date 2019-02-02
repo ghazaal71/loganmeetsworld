@@ -21,7 +21,7 @@ Now, learning is incredibly subjective and brains are complicated. No one learns
 
 ## Hierarchies of Learning
 
-I start theoretically with some conceptuals diagram that I learned all the way back in the 9th grade, [Gagne's hierarchy of learning](http://www2.rgu.ac.uk/celt/pgcerttlt/how/how4a.htm) and [Bloom's taxonomy of learning](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy). There have been many adaptations and addendums to these hierarchies since Robert Gagne and Benjamin Bloom came up with them in the 1950s, but I find the general path of learning to be an effective mental constructs for me.
+I start theoretically with some conceptuals diagram that I learned all the way back in the 9th grade, [Gagne's hierarchy of learning](https://www2.rgu.ac.uk/celt/pgcerttlt/how/how4a.htm) and [Bloom's taxonomy of learning](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy). There have been many adaptations and addendums to these hierarchies since Robert Gagne and Benjamin Bloom came up with them in the 1950s, but I find the general path of learning to be an effective mental constructs for me.
 
 The idea is that learning increases in complexity up a hierarchy and learning can often be more successful when focusing on the lower rungs, listed here lowest to highest. Here's Gagne's hierarchy:
 

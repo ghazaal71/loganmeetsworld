@@ -289,7 +289,7 @@ Here's a collection of some cool stuff I read in forming this blog post and some
 * [Bitwise Operators in Ruby](https://www.calleerlandsson.com/rubys-bitwise-operators/)
 * [my javascript tic-tac-toe](https://github.com/loganmeetsworld/js-tic-tac-toe/tree/lm/master)
 * [really random helpful passage on tic-tac-toe in "Using Macromedia Flash MX" by Michael Hurwicz, Laura McCabe](https://books.google.com/books?id=zsti09XFNbEC&pg=PA246&lpg=PA246&dq=tic+tac+toe+bitwise+operators&source=bl&ots=u5VzY_PCUx&sig=ekn1-fpmR33CnNSDD2z0xnRASOQ&hl=en&sa=X&ved=0ahUKEwjM1--yqvPWAhXH2SYKHZQ4C2QQ6AEIUjAH#v=onepage&q=tic%20tac%20toe%20bitwise%20operators&f=true)
-* [`secure_compare` docs](http://api.rubyonrails.org/v5.1/classes/ActiveSupport/SecurityUtils.html)
+* [`secure_compare` docs](https://api.rubyonrails.org/v5.1/classes/ActiveSupport/SecurityUtils.html)
 * [Timing Attacks against String Comparison by Nick Malcolm](https://thisdata.com/blog/timing-attacks-against-string-comparison/)
 * [`bitfields` rails gem](https://github.com/grosser/bitfields)
 

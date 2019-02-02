@@ -23,7 +23,7 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 
 ### Speaking
 
-* [Ruby on Rails 5by5 Podcast](http://5by5.tv/rubyonrails/241)
+* [Ruby on Rails 5by5 Podcast](https://5by5.tv/rubyonrails/241)
 * [Slides from a talk I gave at BrooklynJS on Homograph  Attacks](https://github.com/loganmeetsworld/homographs-talk)
 * A talk on [Node, AWS Lambda, and serverless functions I gave at NodeConf Barcelona](https://opbeat.com/community/posts/using-node-in-a-serverless-world-by-logan-mcdonald/)
 * [Lightning talk I gave about learning at Monitorama this year](https://vimeo.com/221064922) (start at 6m07s)

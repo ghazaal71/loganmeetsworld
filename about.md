@@ -10,7 +10,7 @@ I started my journey in software about three years ago when I started using R fo
 
 I have first worked as an Operations Engineer at [Kickstarter](www.kickstarter.com). In my time at Kickstarter, I concentrated on metrics & monitoring, site reliability, incident response, and some cool [serverless architecture](https://kickstarter.engineering/leveraging-functional-programming-aws-lambda-to-drive-chatops-4b269558d3fb).
 
-Currently, I am Site Reliability Engineer at [BuzzFeed](https://www.buzzfeed.com).
+Currently, I am Site Reliability Engineer at [BuzzFeed](https://www.buzzfeed.com), where I work on security related infrastructure projects, the [rig platform](https://tech.buzzfeed.com/deploy-with-haste-the-story-of-rig-ca9a58b5719a?gi=a7b7468a629d), and manage a Tech-News Working Group.
 
 I'm using this blog to talk about the things I'm learning both at work and outside work. This blog is very simple. It's really just a place for me to keep some public thoughts, nothing more. Thanks for following along!
 
@@ -18,14 +18,21 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 
 * [Github](https://github.com/loganmeetsworld)
 * [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
-* [Twitter](https://twitter.com/loganmeetsworld)
+* [Twitter](https://twitter.com/_loganmcdonald)
 * [Old blog](https://loganmcdonald.me)
+
+### Writing
+
+* [BuzzFeed News Bylines](https://www.buzzfeednews.com/author/loganmcdonald)
+* [Increment Magazine Security Edition 2018](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/)
 
 ### Speaking
 
+* [Speaker at SRECon Americas 2019](https://www.usenix.org/conference/srecon19americas/presentation/mcdonald)
+* [Opening Speaker for Monitorama 2018](https://vimeo.com/274821071)
 * [Ruby on Rails 5by5 Podcast](https://5by5.tv/rubyonrails/241)
-* [Slides from a talk I gave at BrooklynJS on Homograph  Attacks](https://github.com/loganmeetsworld/homographs-talk)
-* A talk on [Node, AWS Lambda, and serverless functions I gave at NodeConf Barcelona](https://opbeat.com/community/posts/using-node-in-a-serverless-world-by-logan-mcdonald/)
-* [Lightning talk I gave about learning at Monitorama this year](https://vimeo.com/221064922) (start at 6m07s)
-* [Slides from a Security Talk I gave at Make a Diff last fall](https://gist.github.com/loganmeetsworld/b9e2931e6b2a9aabe5e85e9f6cdac882)
-* [Slides from an intro talk to "DevOps" I gave at *rb](https://gist.github.com/loganmeetsworld/941ea9c6f7a63646b3ccd91acaabe6e0)
+* [Slides from a talk I gave at BrooklynJS on Homograph  Attacks 2017](https://github.com/loganmeetsworld/homographs-talk)
+* A talk on [Node, AWS Lambda, and serverless functions I gave at NodeConf Barcelona in 2017](https://opbeat.com/community/posts/using-node-in-a-serverless-world-by-logan-mcdonald/)
+* [Lightning talk I gave about learning at Monitorama in 2017](https://vimeo.com/221064922) (start at 6m07s)
+* [Slides from a Security Talk I gave at Make a Diff 2016](https://gist.github.com/loganmeetsworld/b9e2931e6b2a9aabe5e85e9f6cdac882)
+* [Slides from an intro talk to "DevOps" I gave at *rb in 2015](https://gist.github.com/loganmeetsworld/941ea9c6f7a63646b3ccd91acaabe6e0)

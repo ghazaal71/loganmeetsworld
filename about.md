@@ -25,6 +25,7 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 
 * [BuzzFeed News Bylines](https://www.buzzfeednews.com/author/loganmcdonald)
 * [Increment Magazine Security Edition 2018](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/)
+* [Dev.to writing](https://dev.to/logan)
 
 ### Speaking
 

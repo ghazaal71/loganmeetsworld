@@ -1,20 +1,36 @@
 ---
 layout: post
 title: "Automating delivery of patent application alerts to Slack"
-date: 2019-03-03T14:35:00-04:00
+date: 2019-03-04T14:35:00-04:00
 tags: legal, programming
 ---
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD026 -->
 <!-- markdownlint-disable MD002 -->
 
-Recently, I've become obsessed with patent applications. Specifically, I'm interested in patent applications from large tech companies. I started reading about patents when I came across some patent applications from Microsoft in an article about facial recognition software. I found the dry and legalistic nature of the patent language fascinating, given the implications of the subject matter. So I googled "how do I find out what patent applications are released" and I found a glorious piece of software: The USPTO's [Patent Application Alert Service](https://www.uspatentappalerts.com/). Now, every week, I sit down with a cup of coffee and read through patent applications.
+Recently, I've become obsessed with United States patent applications. Specifically, I'm interested in patent applications from large tech companies. I started reading about patents when I came across some patent applications from Microsoft in an article about facial recognition software. I found the dry and legalistic nature of the patent language fascinating, given the implications of the subject matter. So I googled "how do I find out what patent applications are released" and I found a glorious piece of software: The USPTO's [Patent Application Alert Service](https://www.uspatentappalerts.com/). Now, every week, I sit down with a cup of coffee and read through patent applications.
 
 In this post we'll cover why I do this, what this USPTO service does, what patent databases are available to the public, and what I've done to make the release of patent applications more accessible for my team.
 
 ## What are patent applications and why are they important?
 
-To persuade you that patent application alerts are important, I need to talk a little bit about how patent applications work. When a company like Facebook or an individual person believes they have invented a novel "process" or "machine," among other things, they can apply for a patent to prevent another entity from making, using, or selling their invention without their consent. In order to obtain a patent, companies are forced to make a tradeoff. While they stand to make money by protecting their idea, they also have to disclose that idea to the public when they apply for a patent.
+### Newsworthiness of patent applications
+
+When patent applications are released to the public, they often result in news stories. Here are just a handful I found while researching this:
+
+1. ["Apple patent hints at AR headset that'll work with your iPhone"](https://www.cnet.com/news/apple-patent-hints-at-ar-headset-thatll-work-with-your-iphone/)
+2. ["An Apple patent filing reveals what a foldable iPhone might look like"](https://www.businessinsider.com/apple-patent-filing-reveals-possible-design-for-foldable-iphone-2019-2)
+3. ["Amazon Filed A Patent Application For Tech That Could Link You To Your Identity And Job"](https://www.buzzfeednews.com/article/daveyalba/amazon-filed-facial-recognition-patent-application)
+4. ["Facebook is eying ridesharing"](https://money.cnn.com/2016/01/28/technology/facebook-ridesharing/index.html)
+5. ["Uber wants to patent a way to use AI to identify drunk passengers"](https://money.cnn.com/2018/06/07/technology/uber-patent-identify-drunks/index.html)
+6. ["Palantir’s New Patents Shed Rare Light On Its Data Methods"](https://www.cbinsights.com/research/palantir-patents-data-mining/)
+7. ["Google, Amazon Patent Filings Reveal Digital Home Assistant Privacy Problems"](https://www.consumerwatchdog.org/sites/default/files/2017-12/Digital%20Assistants%20and%20Privacy.pdf)
+
+As you can see, patent applications contain useful information for the public and reveal what companies consider to be innovation worth protecting.
+
+### Importance of patent application alerts
+
+To persuade you that patent application _alerts_ are important, I need to talk a little bit about how patent applications work. When a company like Facebook or an individual person believes they have invented a novel "process" or "machine," among other things, they can apply for a patent to prevent another entity from making, using, or selling their invention without their consent. In order to obtain a patent, companies are forced to make a tradeoff. While they stand to make money by protecting their idea, they also have to disclose that idea to the public when they apply for a patent.
 
 By law, patent applications must be made public within 18 months of being filed. However, there are few exceptions. First, there is something called a "provisional" patent application. A provisional patent application allows an applicant to establish an early filing date, but the USPTO does not make it public or determine whether to grant a patent unless the applicant files a regular non-provisional patent application within one year. If the applicant doesn't file a non-provisional patent, the provisional application is never made public.
 
@@ -22,7 +38,7 @@ There are two rarer examples of non-published applications and issued patents. F
 
 ### USPTO databases
 
-So, you may be thinking that means the Patent Application Alert Service (PAAS) spits out an alert for _every_ non-foreign, non-provisional, and non-national-security related patent application before a patent is granted, but this isn't exactly true. Applications that come through the application database will result in alerts to PAAS. However, patents may be approved already by the 18 month publication deadline.
+So, you may be thinking that means the Patent Application Alert Service (PAAS) spits out an alert for _every_ non-foreign, non-provisional, and non-national-security related patent application before a patent is granted, but this isn't exactly true. Applications that come through the application database will result in alerts to PAAS. However, in some cases, a patent may be approved before the 18 month publication deadline.
 
 There are two major public databases for doing full-text searches for information related to patents: AppFT and PatFT, which contain information for patent _applications_ and patents that were approved.
 
@@ -34,21 +50,23 @@ Now you have enough background to evaluate what alerts coming through the _appli
 2. You're missing those patents whose applications were not published prior to being granted, and thus only exist in PatFT
 3. You're missing provisional patents, some foreign related patents, and those patents that have national security implications
 
-However, there's still a lot to work with dealing directly with AppFT. With that in mind, let's discuss the alert service.
+However, dealing directly with AppFT still gives us a lot to work with. With that in mind, let's discuss the alert service.
 
 ### The Patent Application Alert Service (PAAS)
 
-PAAS is the system that provides customized email alerts when a patent application is published. It was created to allow the public to find out what the _latest_ patent application releases were rather than having to go back through old searches. You can use the service to add alerts for a variety of search terms.
+PAAS is the system that provides customized email alerts when a patent application is published. It was created to allow the public to monitor the _latest_ patent application releases. You can use the service to add alerts for a variety of search terms.
+
+While these alerts definitely make it easier for reporters to report on companies' patent applications, the central reason for a patent alert system is to spur innovation. USPTO thinks that if people have easy access to patent-related information, they will file higher quality patent applications and pursue novel inventions. This is because patent filings require you to prove your patent is novel using "prior art". "Prior art" is _anything_ that can be used as evidence your invention is already known. USPTO thinks that if it can help you find "prior art" that shows your invention isn't novel, you won't apply for a patent. The more visible patent applications are, the more discoverable the "prior art".
 
 I signed up to start getting these alerts a couple months ago when I found out about PAAS. I included the top 10 tech companies in the US as well as some ones that were recommended to me like Palantir or Clear, just to see what they were like. This is the interface for adding a new company to your alerts:
 
 ![Adding an Alert](https://i.imgur.com/Q3qhohA.png)
 
-I get the best luck with just searching for terms and selecting "Applicant". All the other stuff will give you too much noise.
+I get the best luck with just searching for terms and selecting "Applicant". All the other categories will give you too much noise.
 
-I loved reading the patents applications. To me, they seemed like an unfiltered look into what these companies were working on in the language the engineers would use to describe it. What's fascinating to me about applications is the disconnect between the engineering teams building these products, and the PR teams who we usually hear from. While Amazon PR downplays recognition technology's use by law enforcement, the language in their patents revels in those possibilities. This is because the incentives of the IP lawyers and the PR departments are misaligned. The lawyers and engineers goal is to get the patent approved not to avoid the dystopian picture the patent applications paint.
+I love reading the patent applications. To me, they seem like an unfiltered look into what these companies were working on in the language the engineers would use to describe it. Interestingly, there seems to be a disconnect between the engineering teams building these products and the PR teams who BuzzFeed reporters usually hear from. For example, while Amazon PR downplays the extent to which their facial recognition technology could be used by law enforcement, the language in their patents revels in those possibilities. This is because the incentives of the IP lawyers and the PR departments are misaligned. The lawyers' and engineers' goal is to get the patent approved, not to write the patent in such a way that hides a technology's dystopian features.
 
-If you are thinking of working at a large company that probably has applied for patents, read their applications. It'll give you a great look into the work.
+If you are thinking of working at a large company, read their patent applications. It'll give you a great look into their work.
 
 ## A patent application Slackbot
 
@@ -65,27 +83,13 @@ I almost immediately started annoying my Twitter followers with patent-related t
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-According to the USPTO, PAAS releases all new patent applications to the public [on Thursdays](http://appft.uspto.gov/netahtml/PTO/help/status.html). So I knew every Thursday, around 7:30am EST (I've gotten them at 7:24, 7:58, 7:33, etc.), I was going to get a new round of patent applications from the companies to which I'd subscribed. This is what the looks like:
+ You may notice that the tweets above and the stories I linked earlier are all on Thursdays. PAAS releases all new patent applications to the public [on Thursdays](http://appft.uspto.gov/netahtml/PTO/help/status.html) around 7am EST. Each Thursday, I get a new round of alerts from the companies to which I subscribe. This is what the looks like:
 
 ![Imgur](https://i.imgur.com/ro2cQ9r.png)
 
-I wasn't super happy with the formatting of the email. I'd have to go through and click on every link, and go out to its individual page to read about it. So I had a thought: What if I could turn this email into data that I could display the abstracts and titles only? What would that look like? My  goal was to make PAAS more accessible for people in a hurry to look at content and right away know what was interesting.
+I wasn't super happy with the formatting of the email. I'd have to go through and click on every link, and go out to its individual page to read about it. So I had a thought: What if I could turn this email into data that I could display the abstracts and titles only? What would that look like? My  goal was to make PAAS more accessible for people in a hurry to discover the most interesting applications right away.
 
 I looked to see if anyone had built something that accomplished this goal on Github, but could not find anything. Furthermore, while an API exists for searching the actual patent database, none exists for querying recently updated applications. Lastly, I recognize that patents are a big business. Proprietary software to parse new applications probably exists, but I don't have access to it.
-
-While I loved reading these patents and wanted to make it easier to digest the information for myself, I also work adjacent to very busy people who might have uses for the information at BuzzFeed News as well.
-
-Stories break about patent applications all the time. Here are just a handful I found while researching this:
-
-1. ["Apple patent hints at AR headset that'll work with your iPhone"](https://www.cnet.com/news/apple-patent-hints-at-ar-headset-thatll-work-with-your-iphone/)
-2. ["An Apple patent filing reveals what a foldable iPhone might look like"](https://www.businessinsider.com/apple-patent-filing-reveals-possible-design-for-foldable-iphone-2019-2)
-3. ["Amazon Filed A Patent Application For Tech That Could Link You To Your Identity And Job"](https://www.buzzfeednews.com/article/daveyalba/amazon-filed-facial-recognition-patent-application)
-4. ["Facebook is eying ridesharing"](https://money.cnn.com/2016/01/28/technology/facebook-ridesharing/index.html)
-5. ["Uber wants to patent a way to use AI to identify drunk passengers"](https://money.cnn.com/2018/06/07/technology/uber-patent-identify-drunks/index.html)
-6. ["Palantir’s New Patents Shed Rare Light On Its Data Methods"](https://www.cbinsights.com/research/palantir-patents-data-mining/)
-7. ["Google, Amazon Patent Filings Reveal Digital Home Assistant Privacy Problems"](https://www.consumerwatchdog.org/sites/default/files/2017-12/Digital%20Assistants%20and%20Privacy.pdf)
-
-You'll notice almost all these breaking stories came out on Thursdays. Can you guess why? Look at the timestamps of these stories and you'll see some of them released as late as 7pm EST. That's a whole 12 hours after they got this data. So what if we got the data, cleanly and clearly delivered it to Slack where they can be shared and discussed, as soon as they are released?
 
 So I set out to make a new Slackbot. My general design of the Slackbot relies on incoming webhooks to Slack channels, sending the data to these webhooks when we receive the email from USPTO.
 
@@ -151,18 +155,19 @@ for link in links:
     html = urllib.request.urlopen(link).read().decode()
     html_tree = lxml.html.fromstring(html)
     title = ' '.join(html_tree.xpath('/html/body/font')[0].text_content().strip().split())
+    # regarding the following line... I'm sorry, but it works
     applicant = html_tree.xpath('/html/body/table[3]/table/tr/td/table/tr[2]/td')[0].text_content().strip()
     date = ' '.join(html_tree.xpath('/html/body/table[3]/table/tr')[3].text_content().split())
     abstract = ' '.join(html_tree.xpath('/html/body/p[2]')[0].text_content().split())
-    slack_channel = find_slack_channel(applicant) # method to retrieve our Slack channel from secrets
-    if Slack_channel:
+    slack_webhook = find_slack_webhook(applicant) # method to retrieve our Slack channel from secrets
+    if slack_webhook:
         message_data.append(
             {
                 'applicant': applicant,
                 'title': title,
                 'link': link,
                 'date': date,
-                'Slack_channel': slack_channel,
+                'slack_webhook': slack_webhook,
                 'abstract': abstract
             }
         )
@@ -181,8 +186,8 @@ After we've formed nicely formatted data blobs about our various patent applicat
 ```python
 msgs = build_slack_msgs(data)
 for msg in msgs:
-    if msg['Slack_channel']:
-        slack_data = {
+    if msg['slack_webhook']:
+        Slack_data = {
             "attachments": [
                 {
                     "fallback": "Patent filing.",
@@ -207,8 +212,8 @@ for msg in msgs:
         }
 
         response = requests.post(
-            msg['Slack_channel'],
-            data=json.dumps(slack_data),
+            msg['slack_webhook'],
+            data=json.dumps(Slack_data),
             headers={'Content-Type': 'application/json'}
         )
 ```
@@ -227,7 +232,7 @@ Easily readable, automated patent alerts sent directly to our team Slack channel
 
 1. You add a company with USPTO alerts by [logging in to USPTO](https://go.uspatentappalerts.com/login/login.php) and selecting "add an alert"
 2. Edit our secrets file to add another Slack webhook
-3. Add the logic to `find_slack_channel` to specify which keywords will identify the channel
+3. Add the logic to `find_slack_webhook` to specify which keywords will identify the channel
 
 Currently I have about twenty channels setup in a test slack, while I only subject my coworkers to about six of them 😅.
 

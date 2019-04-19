@@ -4,22 +4,11 @@ title: hello 👋
 permalink: /about/
 ---
 
-I'm Logan. I'm a software developer living in New York.
+I'm Logan.
 
-I started my journey in software about three years ago when I started using R for my economics thesis in college. Right after I graduated I decided to pursue software engineering fulltime. I enrolled in a program in Seattle called [Ada Developer's Academy](https://adadevelopersacademy.org/). Ada is a yearlong program for women and gender diverse folks to study computer science broadly. As part of this year, I got the opportunity to work at [Chef Software](https://www.chef.io/) for 6 months. At Chef, I got really excited about pursuing a career geared towards Ops and systems engineering. Two years ago I moved out to New York to begin my career.
+I am a senior infrastructure engineer at BuzzFeed where I concentrate on security and systems operability. I also occasionally assist the newsroom at BuzzFeed News with cybersecurity and technology stories or with making technical tools to aid their work.
 
-I have first worked as an Operations Engineer at [Kickstarter](www.kickstarter.com). In my time at Kickstarter, I concentrated on metrics & monitoring, site reliability, incident response, and some cool [serverless architecture](https://kickstarter.engineering/leveraging-functional-programming-aws-lambda-to-drive-chatops-4b269558d3fb).
-
-Currently, I am Site Reliability Engineer at [BuzzFeed](https://www.buzzfeed.com), where I work on security related infrastructure projects, the [rig platform](https://tech.buzzfeed.com/deploy-with-haste-the-story-of-rig-ca9a58b5719a?gi=a7b7468a629d), and manage a Tech-News Working Group.
-
-I'm using this blog to talk about the things I'm learning both at work and outside work. This blog is very simple. It's really just a place for me to keep some public thoughts, nothing more. Thanks for following along!
-
-### Links
-
-* [Github](https://github.com/loganmeetsworld)
-* [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
-* [Twitter](https://twitter.com/_loganmcdonald)
-* [Old blog](https://loganmcdonald.me)
+I'm using this blog to talk about the things I'm learning both at work and outside work.
 
 ### Writing
 
@@ -55,3 +44,10 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 #### 2015
 
 * [Slides from an intro talk to "DevOps" I gave at *rb](https://gist.github.com/loganmeetsworld/941ea9c6f7a63646b3ccd91acaabe6e0)
+
+### Links
+
+* [Github](https://github.com/loganmeetsworld)
+* [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
+* [Twitter](https://twitter.com/_loganmcdonald)
+* [Old blog](https://loganmcdonald.me)

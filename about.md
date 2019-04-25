@@ -23,7 +23,7 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 #### 2019
 
 * [The Lead Developer NYC pre 2019 conference meetup](https://www.meetup.com/The-Lead-Developer-Meetup-New-York/)
-* [Speaker at SRECon Americas 2019](https://www.usenix.org/conference/srecon19americas/presentation/mcdonald)
+* [Speaker at SRECon Americas 2019](https://www.youtube.com/watch?v=yiPYuGWNnz8)
 * [How We Built It Meetup February 2019](https://www.meetup.com/how-we-built-it/events/258681119/)
 
 #### 2018

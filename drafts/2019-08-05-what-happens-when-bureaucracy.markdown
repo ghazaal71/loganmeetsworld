@@ -14,7 +14,7 @@ This post is inspired by a series of recent decisions by private companies to ta
 
 > Cloudflare is not a government. While we've been successful as a company, that does not give us the political legitimacy to make determinations on what content is good and bad. Nor should it. Questions around content are real societal issues that need politically legitimate solutions. We will continue to engage with lawmakers around the world as they set the boundaries of what is acceptable in their countries through due process of law. And we will comply with those boundaries when and where they are set.
 
-Cloudflare's insistence that the regulatory power surrounding these hate sites sits with the government not a private company, the truth is private companies have controlled large swaths of internet governance since the beginning of the internet. We can hope that Cloudflare us begun to realize that with great power comes great responsibility, but it should also be mentioned they are attempting a [public offering][ipo] next Fall.
+Cloudflare's insistence is that the regulatory power surrounding these hate sites sits with the government and not a private company, but the truth is private companies have controlled large swaths of internet governance since the beginning of the internet.
 
 Similarly, after realizing they were hosting an investment page for the social media network Gab, a site frequented by white supremacists, Amazon's cloud service shutdown the server connected with the subdomain invest.gab.com.
 
@@ -27,9 +27,9 @@ In light of these events and subsequent cries of "free speech!" regarding these 
 
 Finally, before we get started, I want to note that this post was largely inspired by a book I'm reading: [The Global War for Internet Governance by Laura DeNardis][denardis]. The book covers a lot of what's in the post in greater detail and I highly encourage you to check it out.
 
-## The Browser
-
 We're going to walk through how most people access websites today and examine at each turn what organizations might control those processes. I'm going to purposefully ignore certain parts of the process in favor of brevity, and if you think of others that are important, let me know in the comments!
+
+## The Browser
 
 Let's start with a user coming to the browser.
 
@@ -37,17 +37,25 @@ When you type a url into the browser, the browser first needs to read the url. I
 
 The Browsers have control over several things in this process, mainly the user interface for interacting with a given website. You may have seen the `Insecure` label on sites not using `https` for example. They also have the power to show all urls in their pure-ASCII form by forcing addresses to translate to punycode in the url bar (Chrome does this, Firefox does not). At this point, Mozilla, Apple, Google, and any other company running a browser has moderate control over your experience in accessing a website, by "nudging" you to do things that they deem "secure".
 
-## IP/DNS
+## DNS
+
+Then your Browser performs a DNS lookup. It'll make a call in your operating system to get the hostname locally. If it cannot find it on your operating system, it will try resolving the hostname through DNS. DNS is the domain name system. Its primary function is to translate the human-readable addresses we see in our browsers to binary addresses that routers use to locate servers belonging to those addresses.
 
 ## HTTP
 
 ## CDN
 
+Let's take a look at what happens when you curl for BuzzFeedNews:
+
+```bash
+
+```
+
 ## The Host
 
 ## All the random shit you need to run a website in 2019
 
-In this day and age, most sites are run using "cloud computing", which means that you need a way to get your code to the cloud. This presents the opportunity for many other points of possible disruption for a site.$$
+In this day and age, most sites are run using "cloud computing", which means that you need a way to get your code to the cloud. This presents the opportunity for many other points of possible disruption for a site.
 
 In Gab's case, they were using Heroku to deploy their application, but the servers that Heroku uses are actually owned by Amazon. So at that point either Heroku could have terminated their account
 
@@ -63,3 +71,6 @@ What's important to understand is that every technical point of control creates 
 [ipo]: https://news.crunchbase.com/news/cloudflare-said-to-pursue-september-ipo-we-say-heck-yes/
 [denardis]: https://yalebooks.yale.edu/book/9780300181357/global-war-internet-governance
 [whw]: https://github.com/alex/what-happens-when
+[homograph]: https://dev.to/logan/homographs-attack--5a1p
+[denardisbook]: https://yalebooks.yale.edu/book/9780300181357/global-war-internet-governance
+[denardisdns]: https://onlinelibrary.wiley.com/doi/full/10.1002/poi3.195

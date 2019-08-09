@@ -1,0 +1,61 @@
+---
+layout: post
+title: "What happens when: bureaucracy edition"
+date: 2019-03-04T14:35:00-04:00
+tags: infrastructure, governance
+---
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD026 -->
+<!-- markdownlint-disable MD002 -->
+
+The familiar "what happens when" we go to a URL in the address bar of a browser walkthrough, but in terms of who controls all the things that make that process possible.
+
+This post is inspired by two things. First, is a series of recent decisions by private companies to take action to terminate the accounts of sites known to spread hate speech. Following mass shootings in Dayton, Ohio and El Paso, Texas, [Cloudflare][cloudflare] decided to terminate an account held by the website 8chan. There has been widespread pressure for years on the company to end their relationship with 8chan, but they've been reluctant to do so. Per their blog post:
+
+> Cloudflare is not a government. While we've been successful as a company, that does not give us the political legitimacy to make determinations on what content is good and bad. Nor should it. Questions around content are real societal issues that need politically legitimate solutions. We will continue to engage with lawmakers around the world as they set the boundaries of what is acceptable in their countries through due process of law. And we will comply with those boundaries when and where they are set.
+
+Cloudflare's insistence that the regulatory power surrounding these hate sites sits with the government not a private company, the truth is private companies have controlled large swaths of internet governance since the beginning of the internet. We can hope that Cloudflare us begun to realize that with great power comes great responsibility, but it should also be mentioned they are attempting a [public offering][ipo] next Fall.
+
+Similarly, AWS shutdown the investment page for Gab (invest.gab.com), after it was discovered that they were operating some infrastructure for this page.
+
+In light of this event, I wanted to resurrect a blog post idea I've been thinking about for a while.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Would love a /what-happens-when ~*~bureaucracy edition~*~ 😂<br><br>&quot;here are all the organizations that exist to govern the infrastructure you are using to search for something on the internet&quot;</p>&mdash; Logan McDonald (@_loganmcdonald) <a href="https://twitter.com/_loganmcdonald/status/1156663790546640896?ref_src=twsrc%5Etfw">July 31, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+So why is this such a big deal? The internet is a large, decentralized, and distributed systems with many different points of control. Most people don't understand everything that goes into a single request to one website. Furthermore, even if they have prepared for technical interviews and they do understand that, they probably don't know about each of the individual protocols and organizations that govern the process.
+
+The second thing that has inspired this post is a book I'm reading, [The Global War for Internet Governance by Laura DeNardis][denardis]. The book covers a lot of what's in the post in greater detail and I highly encourage you to check it out.
+
+## The Browser
+
+The Browser has to convert what you are searching into punycode
+homographs article
+
+## IP/DNS
+
+## HTTP
+
+## CDN
+
+## The Host
+
+## All the random shit you need to run a website in 2019
+
+In this day and age, most sites are run using "cloud computing", which means that you need a way to get your code to the cloud. This presents the opportunity for many other points of possible disruption for a site.$$
+
+In Gab's case, they were using Heroku to deploy their application, but the servers that Heroku uses are actually owned by Amazon. So at that point either Heroku could have terminated their account
+
+Part of what's so hard to understand when examining how the technical design of the internet impacts socio-politics is that there are so many areas of study involved. It's hard to find scholars who are engineers, legal experts, and sociologists. It requires a technical and social understanding. That said, there's an entire field dedicated to understanding these issues called STS or science and technology studies. There are also many lawyers and programmers who cross over both fields. I'll list some research that I've found reading about this below.
+
+What's important to understand is that every technical point of control creates a political choice. ICANN, registrars, CDNs, hosting sites, all choose to enforce certain conduct by either action or inaction. And while there are laws that govern some of these control points and commit to _legal_ choices, because of the decentralized nature of control, the private intermediary's choice is a moral one.
+
+
+## Resources
+
+* [Alex Gaynor's /what-happens-when](whw)
+
+[cloudflare]: https://blog.cloudflare.com/terminating-service-for-8chan/
+[ipo]: https://news.crunchbase.com/news/cloudflare-said-to-pursue-september-ipo-we-say-heck-yes/
+[denardis]: https://yalebooks.yale.edu/book/9780300181357/global-war-internet-governance
+[whw]: https://github.com/alex/what-happens-when

@@ -10,6 +10,8 @@ tags: infrastructure, governance
 
 The familiar "what happens when" we go to a URL in the address bar of a browser walkthrough, but in terms of who controls all the things that make that process possible.
 
+> "Collectively, these are the primary virtual identifiers that keep the Internet operational. The requirement that each identifier be globally unique has necessitated centralized administration. The global struggle over who controls and possesses these resources has been along-standing issue of Internet governance." - Laura DeNardis, The Global War for Internet Governance
+
 This post is inspired by a series of recent decisions by private companies to take action to terminate the accounts of sites known to spread hate speech. Following mass shootings in Dayton, Ohio and El Paso, Texas, [Cloudflare][cloudflare] decided to terminate an account held by the website 8chan. There has been widespread pressure for years on the company to end their relationship with 8chan, but they've been reluctant to do so. Per their blog post:
 
 > Cloudflare is not a government. While we've been successful as a company, that does not give us the political legitimacy to make determinations on what content is good and bad. Nor should it. Questions around content are real societal issues that need politically legitimate solutions. We will continue to engage with lawmakers around the world as they set the boundaries of what is acceptable in their countries through due process of law. And we will comply with those boundaries when and where they are set.

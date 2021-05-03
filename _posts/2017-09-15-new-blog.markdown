@@ -5,9 +5,7 @@ date: 2017-09-15
 tags: learning blog
 ---
 
-![Image of keyboard](https://images.pexels.com/photos/34153/pexels-photo.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb)
-
-I'm starting this new blog! I love writing. I love learning. Writing helps me learn, so I'm starting this blog. I've had blogs in [the](https://loganmeetsworld.tumblr.com) [past](https://loganmcdonald.me), but none that were specifically about technical learning. 
+I'm starting this new blog! I love writing. I love learning. Writing helps me learn, so I'm starting this blog. I've had blogs in the past, but none that were specifically about technical learning. 
 
 I am particularly interested in writing about software engineering. I have been coding for about three years and a professional software engineer for one. I want a place where I can keep track of my progress growing my skills. Thus, why not blog about it? This blog will not strictly be about programming, but more geared towards _learning_. And because I tend to spend most of my time learning about software engineering, I'll spend most of my time writing about that. 
 

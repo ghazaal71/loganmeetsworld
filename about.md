@@ -18,7 +18,7 @@ This is my technology-focussed blog. In my non-work time I love to cycle around 
 * [Goodreads](https://www.goodreads.com/user/show/70112026-logan-mcdonald)
 * [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
 
-### Writing
+### (Other) Writing
 
 * [BuzzFeed News Bylines](https://www.buzzfeednews.com/author/loganmcdonald)
 * [Increment Magazine Security Edition 2018](https://increment.com/security/open-sourcing-buzzfeeds-single-sign-on-process/)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Learn"
-date: 2017-10-14T14:19:00-04:00
+date: 2017-10-14
 tags: learning
 ---
 

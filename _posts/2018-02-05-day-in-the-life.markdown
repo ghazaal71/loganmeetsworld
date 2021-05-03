@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A day in the life of an operations engineer"
-date: 2019-02-05T14:35:00-04:00
+date: 2019-02-05
 tags: programming
 ---
 

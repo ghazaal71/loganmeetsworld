@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Take Notes"
-date: 2017-10-28T17:45:00-04:00
+date: 2017-10-28
 tags: learning
 ---
 # How to Take Notes

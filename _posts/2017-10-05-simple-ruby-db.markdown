@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simple Ruby DB"
-date: 2017-10-05T12:12:00-04:00
+date: 2017-10-05
 tags: programming
 ---
 

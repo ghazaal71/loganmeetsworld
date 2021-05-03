@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Bitwise Operators"
-date: 2017-10-15T16:18:00-04:00
+date: 2017-10-15
 tags: programming
 ---
 

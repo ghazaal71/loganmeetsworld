@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Homographs, attack!"
-date: 2018-02-15T14:35:00-04:00
+date: 2018-02-15
 tags: programming
 ---
 

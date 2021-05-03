@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Automating delivery of patent application alerts to Slack"
-date: 2019-03-04T14:35:00-04:00
+date: 2019-03-04
 tags: legal, programming
 ---
 <!-- markdownlint-disable MD033 -->

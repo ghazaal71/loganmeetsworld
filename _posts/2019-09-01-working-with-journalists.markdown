@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Working with journalists makes me a better engineer"
-date: 2019-03-04T14:35:00-04:00
+date: 2019-03-04
 tags: process, working
 ---
 <!-- markdownlint-disable MD033 -->

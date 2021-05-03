@@ -8,7 +8,7 @@ tags: observability
 <!-- markdownlint-disable MD026 -->
 <!-- markdownlint-disable MD002 -->
 
-A while back I was on the [Dev Discuss podcast](https://devpods.herokuapp.com/podcasts/devdiscuss/episodes/28) to talk about being an SRE. At some point I made a comment about a pet peeve of mine: When folks post screenshots of some error they are seeing to Slack. I wanted to take some time to expand on that and talk a little bit about how I use Slack to explain why.
+A while back I was on the [DevDiscuss podcast](https://devpods.herokuapp.com/podcasts/devdiscuss/episodes/28) to talk about being an SRE. At some point I made a comment about a pet peeve of mine: When folks post screenshots of some error they are seeing to Slack. I wanted to take some time to expand on that and talk a little bit about how I use Slack to explain why.
 
 Slack is one of the most powerful logging systems I use. When investigating an error or incident, I'm probably using [Slack search](https://slack.com/help/articles/202528808-Search-in-Slack) as a first move. Often I'll find the error we're seeing in the backlog of our chats and it often leads to valuable clues — "oh something similar happens every thrid Monday of the month???" When I find past mentions of the bug or error we're currently seeing, I have a load of context to give me even more clues. Who worked on this last time? What was the content of the conversation? Even if I can't figure out what's happening from the previous chat, maybe I can contact the people involved previously.
 

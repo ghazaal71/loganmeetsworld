@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Slack is your most powerful logging system"
+title: "Slack dorking for the win!"
 date: 2021-05-03
 tags: observability
 ---

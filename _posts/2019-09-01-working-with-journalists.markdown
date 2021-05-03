@@ -2,7 +2,7 @@
 layout: post
 title: "Working with journalists makes me a better engineer"
 date: 2019-09-01
-tags: process, working
+tags: process working
 ---
 <!-- markdownlint-disable MD033 -->
 <!-- markdownlint-disable MD026 -->

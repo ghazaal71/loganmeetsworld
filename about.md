@@ -1,14 +1,22 @@
 ---
 layout: page
-title: hello 👋
+title: hello 👋🏻
 permalink: /about/
 ---
 
 I'm Logan.
 
-I am a senior infrastructure engineer at BuzzFeed where I concentrate on security and systems operability. I also occasionally assist the newsroom at BuzzFeed News with cybersecurity and technology stories or with making technical tools to aid their work.
+I am a recovering SRE taking a break before starting the next thing. I previous worked as a staff engineer at BuzzFeed concentrating on systems operability, safety, and release engineering. During my time at BuzzFeed I also occasionally assisted the newsroom with cybersecurity and technology stories.
 
-I'm using this blog to talk about the things I'm learning both at work and outside work.
+This is my technology-focussed blog. In my non-work time I love to cycle around NYC, read, and learn.
+
+### Links
+
+* [Github](https://github.com/loganmeetsworld)
+* [Twitter](https://twitter.com/_loganmcdonald)
+* [Strava](https://www.strava.com/athletes/57902294/)
+* [Goodreads](https://www.goodreads.com/user/show/70112026-logan-mcdonald)
+* [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
 
 ### Writing
 
@@ -17,6 +25,7 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 * [BuzzFeed Tech Bylines](https://tech.buzzfeed.com/@loganmeetsworld)
 * [Kickstarter Tech Bylines](https://kickstarter.engineering/@loganmeetsworld)
 * [Dev.to writing](https://dev.to/logan)
+* [Substack](https://loganmcdonald.substack.com)
 
 ### Speaking
 
@@ -44,10 +53,3 @@ I'm using this blog to talk about the things I'm learning both at work and outsi
 #### 2015
 
 * [Slides from an intro talk to "DevOps" I gave at *rb](https://gist.github.com/loganmeetsworld/941ea9c6f7a63646b3ccd91acaabe6e0)
-
-### Links
-
-* [Github](https://github.com/loganmeetsworld)
-* [LinkedIn](https://www.linkedin.com/in/mcdonaldlogan/)
-* [Twitter](https://twitter.com/_loganmcdonald)
-* [Old blog](https://loganmcdonald.me)

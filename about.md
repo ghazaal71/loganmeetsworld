@@ -6,9 +6,9 @@ permalink: /about/
 
 I'm Logan.
 
-I am a recovering SRE taking a break before starting the next thing. I previous worked as a staff engineer at BuzzFeed concentrating on systems operability, safety, and release engineering. During my time at BuzzFeed I also occasionally assisted the newsroom with cybersecurity and technology stories.
+I am a recovering SRE taking a break before starting the next thing. I previously worked as a staff engineer at BuzzFeed concentrating on systems operability, safety, and release engineering. During my time at BuzzFeed I also occasionally assisted the newsroom with cybersecurity and technology stories.
 
-This is my technology-focussed blog. In my non-work time I love to cycle around NYC, read, and learn.
+This is my technology-focussed blog. In my non-work time I love to cycle around NYC, read, and learn. If you want to contact me, please [send me an email](logan.mcdonald@protonmail.com)!
 
 ### Links
 

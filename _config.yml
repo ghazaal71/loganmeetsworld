@@ -1,21 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-
 title: LMW, a blog.
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   A blog about learning.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://loganmeetsworld.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://loganmeetsworld.com"
 twitter_username: _loganmcdonald
 github_username:  loganmeetsworld
 
 # Build settings
 markdown: kramdown
-
 theme: jekyll-theme-tactile

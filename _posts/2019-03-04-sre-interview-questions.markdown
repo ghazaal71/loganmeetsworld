@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Questions I ask in SRE interviews"
-date: 2019-03-03
+date: 2019-03-04
 tags: careers, interviewing
 ---
 <!-- markdownlint-disable MD033 -->

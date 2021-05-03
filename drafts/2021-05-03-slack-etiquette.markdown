@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Slack is your most powerful logging system"
-date: 2021-05-03T14:35:00-04:00
+date: 2021-05-03
 tags: observability
 ---
 <!-- markdownlint-disable MD033 -->

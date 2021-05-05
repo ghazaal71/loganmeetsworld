@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What happens when: bureaucracy edition"
-date: 2019-03-04T14:35:00-04:00
+date: ---
 tags: infrastructure, governance
 ---
 <!-- markdownlint-disable MD033 -->

@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Proxies, reverse proxies, load balancers, nginx – oh my!"
+date: 2021-05-05
+tags: infrastructure
+---
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD026 -->
+<!-- markdownlint-disable MD002 -->
+
+A category that was really hard for me to keep straight when I started working in infrastructure were proxies, reverse proxies, nginx, load balancing – pretty much anything to do with distributing and redistributing traffic. This isn't something you often need to know as a student, and when you start to work with setting it up there are probably already loads of good examples within your workplace you can copy from.
+
+I saw a [code challenge](https://homework.adhoc.team/containerize/) the other day for an infrastructure role that tasked applicants with containerizing a Python application. The challenge provides you with an nginx configuration to complete. Even a couple weeks out from working full-time this made me sweat a little bit. These configs, and concepts behind them, have always confused me a little bit. So I've decided to take the time to explain everything I know about reverse proxies and nginx, and then at the end we'll talk about how we might approach the code challenge. 
+
+## Proxies, reverse proxies, and load balancers
+
+To start basic, let's define some terms.
+
+## ngninx
+
+Like a lot of confusing software terms ("docker", "mongo"), nginx refers to open source software, software they sell, and an actual company. When people talk about "using" nginx they could thus mean a few things, but they are probably assuming it's one specific thing. Isn't software engineering great? 
+
+

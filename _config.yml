@@ -1,9 +1,9 @@
 # Site settings
-title: LMW, a blog.
+title: a blog.
 description: >
   A blog about learning.
 baseurl: ""
-url: "https://loganmeetsworld.com"
+url: "https://blog.loganmcdonald.dev"
 twitter_username: _loganmcdonald
 github_username:  loganmeetsworld
 

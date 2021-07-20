@@ -29,6 +29,10 @@ This is my technology-focussed blog. In my non-work time I love to cycle around 
 
 ### Speaking
 
+#### 2020
+
+* [DevDiscuss Podcast](https://devpods.herokuapp.com/podcasts/devdiscuss/episodes/28)
+
 #### 2019
 
 * [The Lead Developer NYC pre 2019 conference meetup](https://www.meetup.com/The-Lead-Developer-Meetup-New-York/)
